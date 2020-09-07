@@ -1,0 +1,226 @@
+
+
+/*.......................... difolt CSS ..........................*/
+
+*{padding: 0;
+ margin: 0;
+}
+
+.fix-width{
+    width: 1000px;
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+    color: #fff;
+}
+.text-left{
+
+    text-align: left;
+}
+.text-right{
+
+    text-align: right;
+}
+.clearfix::after{
+
+    content:"";
+    clear: both;
+    display: block;
+}
+img{max-width: 100%;}
+
+/*.................. hedder CSS ................ */
+
+
+img{
+    width: 62px;
+    height: auto;
+}
+.hedder{
+
+    background-color: rgb(163, 132, 250);
+}
+.hedder-left{
+
+    float: left;
+    width: 30%;
+}
+.hedder-right{
+ 
+    float: right;
+    width: 70%;
+    
+}
+
+.hedder-right ul{
+    
+    text-align: right;
+   
+}
+.hedder-right ul li{
+
+    display: inline-block;
+   
+   
+    border-left: 1px solid #fff;
+}
+.hedder-right ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+    color: 
+    #fff;
+    padding: 8px 18px;
+    line-height: 50px;
+    transition: .4s;
+}
+.hedder-right ul li a:hover{
+
+    
+     background: rgb(166, 0, 243);
+}
+/*...................banner CSS.....................*/
+
+.banner{
+    
+    background-image: url(.//img/banner.jpg) ;
+    background-size: cover; 
+    padding: 200px;
+    position: relative;
+    z-index: 1;
+   
+}
+.banner::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    background: #00000070;
+    z-index: -1;
+    
+}
+.banner-caption h1{
+
+    font-size: 50px;
+    font-family: initial;
+}
+
+/*...............contener CSS .................*/
+.baout-me{
+
+    text-align: center;
+}
+
+
+.baout-me h1{
+    margin-top: 20px;
+    background: cyan;
+    display: inline-block;
+    padding: 10px;
+    color: blue;
+    border-radius: 25% 0;
+    text-align: center;
+    transition: .4s;
+}
+.baout-me h1:hover{
+
+    transform: scale(1.2);
+}
+.baout-me p{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+} 
+
+/*...................................Sarvice CSS........................*/
+
+.sarvice-item{
+
+    width: 31%;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    transition: .4s;
+}
+.sarvice-item h2{
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.sarvice-item p{
+
+    margin: 15px 10px;
+
+}
+.sarvice-item:hover{
+
+    background: rgb(255, 204, 234);
+    color: rgb(47, 95, 252);
+    transform: scale(1.05);
+    box-shadow:5px 5px 5px slategray;
+}
+/*..................................... Blog CSS ............................*/
+.blog{}
+.blog-left{
+
+    float: left;
+    width: 60%;
+}
+.blog-right{
+
+    float: right ;
+    width: 30%;
+}
+.blog-right h2{
+
+    background: rgb(240, 77, 172);
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+.blog-right ul li{
+
+    border: 1px solid greenyellow;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: .4s;
+}
+.blog-right ul li:hover{
+
+    transform: scale(1.1);
+    background: blue;
+    color: cornsilk;
+}
+.blog-item {
+
+    margin: 20px;
+
+}
+.blog-item img{
+
+    float: left;
+    width: 80px;
+   margin-right: 10px;
+  
+}
+
+/*...........................................Sarvice CSS.................................*/
+.foter{
+    text-align: center;
+    background: rgb(54, 54, 54);
+    color: azure;
+}
